@@ -14,13 +14,13 @@
 		EFDB309A1948AD570034AF12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB30991948AD570034AF12 /* main.m */; };
 		EFDB309E1948AD570034AF12 /* CCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB309D1948AD570034AF12 /* CCAppDelegate.m */; };
 		EFDB30A11948AD570034AF12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDB309F1948AD570034AF12 /* Main.storyboard */; };
-		EFDB30A41948AD570034AF12 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB30A31948AD570034AF12 /* CCViewController.m */; };
 		EFDB30A61948AD570034AF12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDB30A51948AD570034AF12 /* Images.xcassets */; };
 		EFDB30AD1948AD570034AF12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDB30AC1948AD570034AF12 /* XCTest.framework */; };
 		EFDB30AE1948AD570034AF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDB308D1948AD570034AF12 /* Foundation.framework */; };
 		EFDB30AF1948AD570034AF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDB30911948AD570034AF12 /* UIKit.framework */; };
 		EFDB30B71948AD570034AF12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFDB30B51948AD570034AF12 /* InfoPlist.strings */; };
 		EFDB30B91948AD570034AF12 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB30B81948AD570034AF12 /* UITableViewController_Challenge_SolutionTests.m */; };
+		EFDB30C71948B5CE0034AF12 /* UITableViewControllerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB30C61948B5CE0034AF12 /* UITableViewControllerClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		EFDB309C1948AD570034AF12 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAppDelegate.h; sourceTree = "<group>"; };
 		EFDB309D1948AD570034AF12 /* CCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAppDelegate.m; sourceTree = "<group>"; };
 		EFDB30A01948AD570034AF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EFDB30A21948AD570034AF12 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
-		EFDB30A31948AD570034AF12 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		EFDB30A51948AD570034AF12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EFDB30AB1948AD570034AF12 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDB30AC1948AD570034AF12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EFDB30B41948AD570034AF12 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		EFDB30B61948AD570034AF12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EFDB30B81948AD570034AF12 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		EFDB30C51948B5CE0034AF12 /* UITableViewControllerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewControllerClass.h; sourceTree = "<group>"; };
+		EFDB30C61948B5CE0034AF12 /* UITableViewControllerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				EFDB309C1948AD570034AF12 /* CCAppDelegate.h */,
 				EFDB309D1948AD570034AF12 /* CCAppDelegate.m */,
 				EFDB309F1948AD570034AF12 /* Main.storyboard */,
-				EFDB30A21948AD570034AF12 /* CCViewController.h */,
-				EFDB30A31948AD570034AF12 /* CCViewController.m */,
+				EFDB30C51948B5CE0034AF12 /* UITableViewControllerClass.h */,
+				EFDB30C61948B5CE0034AF12 /* UITableViewControllerClass.m */,
 				EFDB30A51948AD570034AF12 /* Images.xcassets */,
 				EFDB30941948AD570034AF12 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			files = (
 				EFDB309E1948AD570034AF12 /* CCAppDelegate.m in Sources */,
 				EFDB309A1948AD570034AF12 /* main.m in Sources */,
-				EFDB30A41948AD570034AF12 /* CCViewController.m in Sources */,
+				EFDB30C71948B5CE0034AF12 /* UITableViewControllerClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
